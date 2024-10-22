@@ -42,7 +42,7 @@ module tb ();
   assign ui_in = {uart_rx, ui_in_base[6:3], spi_miso, ui_in_base[1:0]};
 
   // Replace tt_um_example with your module name:
-  tt_um_example user_project (
+  tt_um_MichaelBell_tinyQV user_project (
       .ui_in  (ui_in),    // Dedicated inputs
       .uo_out (uo_out),   // Dedicated outputs
       .uio_in (uio_in),   // IOs: Input path
